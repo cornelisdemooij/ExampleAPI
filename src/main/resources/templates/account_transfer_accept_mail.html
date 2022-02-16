@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Verify your Example account</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        color: #333333;
+        font-family: Arial, sans-serif;
+      }
+
+      #email-container {
+        margin: 10px;
+      }
+
+      #branding {
+        padding: 20px 0;
+        color: #FFFFFF;
+        font-size: 28px;
+        font-weight: bold;
+        background: #4895ef;
+        background: linear-gradient(27deg, #F72585 0%, #3A0CA3 35%, #4895ef);
+      }
+      #branding-logo {
+        display: block;
+        margin-bottom: 20px;
+        width: 10%;
+        max-width: 100px;
+      }
+
+      #message {
+        padding: 14px 30px;
+        border-left: 1px solid #CCCCCC;
+        border-right: 1px solid #CCCCCC;
+      }
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      h1, p {
+        margin: 16px 0;
+      }
+      a.button {
+        display: inline-block;
+        border-radius: 3px;
+        width: fit-content;
+        margin: 0 5px;
+        padding: 15px 50px;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: #4895EF;
+        color: #FFFFFF;
+      }
+      #accept-button.button:hover, #accept-button.button:focus,
+      #reject-button.button:hover, #reject-button.button:focus {
+        background-color: #F72585;
+        color: #FFFFFF;
+      }
+      #multiple-buttons {
+        margin: 0 auto;
+        width: fit-content;
+        text-align: center;
+      }
+      #accept-button {
+        margin-bottom: 8px;
+      }
+      #reject-button {
+        margin-top: 8px;
+        background-color: #DDDDDD;
+        color: grey;
+      }
+
+      a {
+        color: #4895EF;
+        text-decoration: underline;
+      }
+      a:hover, a:focus {
+        color: #F72585;
+      }
+
+      #footer {
+        padding: 30px 30px 30px 30px;
+        background: #4895ef;
+        background: linear-gradient(117deg, #F72585 0%, #3A0CA3 35%, #4895ef);
+        color: #FFFFFF;
+        font-size: 14px;
+      }
+      #copyright {
+        display: inline;
+      }
+      #website {
+        display: inline;
+        float: right;
+        color: #FFFFFF;
+        text-decoration: underline;
+      }
+      #website:hover, #website:focus {
+        color: #F72585;
+      }
+    </style>
+</head>
+<body>
+<div id="email-container">
+  <div id="branding" align="center">
+    <img id="branding-logo" src="https://example.com/assets/icons/logo-white-bounded-256pxheight.png" alt="Example">
+    Example
+  </div>
+  <div id="message">
+    <h1 class="title">
+      Accept or reject your account transfer
+    </h1>
+    <p>
+      To accept or reject the transfer of your Example account from %%OLD_EMAIL%% to %%NEW_EMAIL%%, please click one of the buttons below:
+    </p>
+    <div id="multiple-buttons">
+      <a id="accept-button" class="button" href=%%TRANSFER_ACCEPT_LINK%%>Accept Account Transfer</a>
+      <a id="reject-button" class="button" href=%%TRANSFER_REJECT_LINK%%>Reject Account Transfer</a>
+    </div>
+    <p>
+      You can also copy the link below in your browser to accept the transfer:
+    </p>
+    <a href="%%TRANSFER_ACCEPT_LINK%%">%%TRANSFER_ACCEPT_LINK%%</a>
+    <p>
+      Or you can copy the link below to reject the transfer:
+    </p>
+    <a href="%%TRANSFER_REJECT_LINK%%">%%TRANSFER_REJECT_LINK%%</a>
+    <p>
+      You will also receive an email at your previous email address, to confirm the account transfer.
+    </p>
+    <p>
+      If you did not initiate this transfer of your account, press the reject button above and please inform us. You
+      can do so by replying to this email, or by sending an email to <a href="mailto:info@example.com">info@example.com</a>.
+    </p>
+  </div>
+  <div id="footer">
+    <div id="copyright">
+      &reg; Example, 2022
+    </div>
+    <a id="website" href="https://www.example.com/">
+      example.com
+    </a>
+  </div>
+</div>
+</body>
+</html>

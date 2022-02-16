@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Verify your Example account</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+      body {
+        margin: 0;
+        padding: 0;
+        color: #333333;
+        font-family: Arial, sans-serif;
+      }
+
+      #email-container {
+        margin: 10px;
+      }
+
+      #branding {
+        padding: 20px 0;
+        color: #FFFFFF;
+        font-size: 28px;
+        font-weight: bold;
+        background: #4895ef;
+        background: linear-gradient(27deg, #F72585 0%, #3A0CA3 35%, #4895ef);
+      }
+      #branding-logo {
+        display: block;
+        margin-bottom: 20px;
+        width: 10%;
+        max-width: 100px;
+      }
+
+      #message {
+        padding: 14px 30px;
+        border-left: 1px solid #CCCCCC;
+        border-right: 1px solid #CCCCCC;
+      }
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      h1, p {
+        margin: 16px 0;
+      }
+      a.button {
+        display: block;
+        border-radius: 3px;
+        width: fit-content;
+        margin: 16px auto;
+        padding: 15px 50px 15px 50px;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: #4895EF;
+        color: #FFFFFF;
+      }
+      a.button:hover, a.button:focus {
+        background-color: #F72585;
+        color: #FFFFFF;
+      }
+
+      a {
+        color: #4895EF;
+        text-decoration: underline;
+      }
+      a:hover, a:focus {
+        color: #F72585;
+      }
+
+      #footer {
+        padding: 30px 30px 30px 30px;
+        background: #4895ef;
+        background: linear-gradient(117deg, #F72585 0%, #3A0CA3 35%, #4895ef);
+        color: #FFFFFF;
+        font-size: 14px;
+      }
+      #copyright {
+        display: inline;
+      }
+      #website {
+        display: inline;
+        float: right;
+        color: #FFFFFF;
+        text-decoration: underline;
+      }
+      #website:hover, #website:focus {
+        color: #F72585;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="email-container">
+      <div id="branding" align="center">
+        <img id="branding-logo" src="https://example.com/assets/icons/logo-white-bounded-256pxheight.png" alt="Example">
+        Example
+      </div>
+      <div id="message">
+        <h1 class="title">
+          Welcome to Example!
+        </h1>
+        <p>
+          To activate your account, verify your email address by clicking the button below:
+        </p>
+        <a class="button" href=%%VERIFICATION_LINK%%>Activate Account</a>
+        <p>
+          By verifying your email address, you confirm that you are 16 or older.
+        </p>
+        <p>
+          You can also copy the link below in your browser to verify your email address:
+        </p>
+        <a href="%%VERIFICATION_LINK%%">%%VERIFICATION_LINK%%</a>
+        <p>
+          Enjoy connecting with musicians on Example!
+        </p>
+      </div>
+      <div id="footer">
+        <div id="copyright">&reg; Example, 2022</div>
+        <a id="website" href="https://www.example.com/">example.com</a>
+      </div>
+    </div>
+  </body>
+</html>
